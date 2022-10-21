@@ -1,0 +1,152 @@
+header{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    min-width: 1100px;
+    border-bottom:1px solid rgb(25, 33, 193);
+    background-color: red    ;}
+body{background: black;}
+    header img{
+        height:60%;
+        
+     }
+     
+     header nav{
+         display:flex;
+         width:50%;
+         justify-content:space-around;
+     }
+     
+     header nav a{
+         text-decoration:none;
+         color:black;
+         text-transform:uppercase;
+         font-size:15pt;
+         font-family:Arial, Helvetica, sans-serif;
+         
+     }
+     
+     section iframe{
+        width:100%;
+    }
+     #link_abonner{
+         /* Plads inden i kassen: */
+         padding-left:10px;
+         padding-right:10px;
+         padding-top:5px;
+         padding-bottom:5px;
+     
+         /* Sort baggrund, hvid tekst*/
+         background-color:black;
+         color:white;
+         
+         /* Tekststyling: */
+         font-family:Arial, Helvetica, sans-serif;
+         text-transform:uppercase;
+         text-decoration:none;
+     }
+     
+     
+     .dropdown{
+        width:auto ;
+    }
+    
+     .Arrow-dropdown{
+        color: blue;
+        font-family:'Mukta Mahee', sans-serif;
+        margin-left: 15px;
+        text-decoration: blue; 
+        font-size: 20px;
+        margin: 15px;
+        width: 50px;
+        height: 50px;
+        
+    }
+
+    .dropdown,
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 5px 15px;
+
+    text-decoration: none;
+    display: block;
+    font-family:'Mukta Mahee', sans-serif;
+}
+
+.dropdown-content a:hover{
+    background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content,
+.dropdown:hover dropdown-box{
+    display: block;
+}
+
+.Arrow-dropdown{
+    margin-bottom: 50px;
+    top: 15px;
+    left:-12px;
+    position: relative;
+    scale: 60%;
+    margin-right: 100px;
+    
+}
+
+.Dabuimage{
+width: 100%;
+
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    width: auto;
+}
+
+.olboksning{
+    color: #f9f9f9;
+    margin: 30px;
+
+}
+.olboksning div h1{
+    color: gold;
+
+}
+.olboksning div h2{
+    color: silver;
+
+}
+.olboksning div{
+    margin: 30px;
+
+}
+
+.olympicpost{
+    height: 850px;
+    width:1450px;
+
+}
+.footerstyle{
+    width: 100%;
+
+}
+
+.footerimage{
+    width: 100%;
+
+}
